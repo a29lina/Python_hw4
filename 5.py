@@ -17,4 +17,4 @@ for i in range(k-1):
         n = fib[i] - (-fib[i + 1])
         negafib.append(n)
 negafib.reverse()
-print(negafib + fib[2:])
+print(negafib + fib[1:])
